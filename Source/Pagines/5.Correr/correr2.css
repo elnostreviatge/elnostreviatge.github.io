@@ -1,0 +1,338 @@
+:root {
+  --color-taronja-correr: #fff3e6;
+  --color-blau-mascotes: #e6f6ff;
+  --color-vermell-transports: #fee8e7;
+  --color-verd-extra: #e5ffe5;
+  --color-lila-principal: #f2e6ff;
+  --color-marrófluix-mapa: #f5f4ef;
+
+  --color-blanc: #fff;
+
+  --color95: #fff3e6;
+  --color90: #ffe6cc;
+  --color75: #ffc180;
+  --color50: #ff8400;
+  --color40: #cc6900;
+  --color35: #b35c00;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--color50);
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.back-to-top-link:hover {
+  background-color: var(--color35);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color95);
+}
+
+header {
+  background-color: var(--color90);
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color90);
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 36px; /* Amplada de les imatges */
+  height: auto; /* Manté la proporció original de l'alçada */
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: transform 0.3s ease-in-out; /* Transició suau de 0.3 segons */
+}
+
+footer img:hover {
+  transform: scale(1.1); /* Augmenta una mica la mida al passar el ratolí */
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+  
+/* Estil per al menú desplegable */
+.dropdown {
+  position: absolute;
+  top: 20px; /* Ajusta aquest valor segons la teva necessitat */
+  left: 20px; /* Ajusta aquest valor segons la teva necessitat */
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 166px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 40px; /* Ajusta aquest valor segons la teva necessitat */
+  left: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+background-color: var(--color50);
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.2s ease;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: var(--color35);
+}
+
+
+
+
+
+
+
+
+
+.filters ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.filters li,
+.filters a {
+  display: inline-block;
+}
+
+.filters a {
+  border: 1px solid var(--color75);
+  border-radius: 5px;
+  margin: 5px;  
+  margin-top: 10px;
+  padding: 8px 16px;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.filters a:hover {
+  border: 1px solid var(--color40);
+}
+
+.filters a:link,
+.filters a:visited,
+.filters a:active {
+  color: black;
+}
+
+
+.icones {
+  width: 50px; /* Amplada de la imatge */
+  height: 50px; /* Alçada de la imatge */
+}
+
+.titol {
+  font-size: 36px;
+  color: black;
+  letter-spacing: -1px;
+  margin: 0px;
+  margin-left: 10px;
+  font-family: fantasy;
+}
+
+.titol-grafics {
+  font-size: 36px;
+  font: bold;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  margin: 0px;
+  margin-left: 10px;
+  font-family: fantasy;
+  margin-top: 150px;
+}
+
+.titol-individual {
+  font-size: 23px;
+  font: bolder;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+
+}
+
+
+.text_icones {
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  margin-left: 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.icones {
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 2px solid var(--color50); /* Color del borde: negre; amplada del borde: 2 píxels */
+  border-radius: 100px; /* Rodó en les cantonades (ajusta al teu gust) */
+}
+
+.mapa {
+  height: 500px;
+  min-width: 500px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.informacio {
+  display: flex;
+  align-content: space-around;
+  margin-bottom: 20px;
+  width: 100%;
+  z-index:1; 
+
+}
+
+.map-container{
+  width: 100%;
+}
+
+.map-section{
+  margin-bottom: 30px;
+}
+
+.map-text {
+  min-width: 370px;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--color95);   
+  margin-right: 20px;
+  max-height: 500px;
+
+}
+
+.titolmedia {
+  font-size: 15px;
+  color: black;
+  letter-spacing: -1px;
+  margin: 0px;
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+  row-gap: 18px;
+  justify-self: start;
+  align-items: center;
+
+}
+
+.grid-item {
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.grid-item iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+
+
+#mapa1 {
+  z-index: 1;
+}
+
+.chart {
+  width: 120%; 
+  height: 500px;
+  margin-top: -35px;
+  margin-left: -145px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 100%;
+  height: 500px;
+  flex-grow: 1;
+  border:none;
+  margin-top: 10px;
+}
+
+
+
+
+
+

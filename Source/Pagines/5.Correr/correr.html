@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head> 
+   <meta charset="UTF-8">
+   <title>La marató</title>
+   <link rel="stylesheet" href="correr2.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+      integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+      crossorigin=""></script>
+   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+   <script defer src="correr2.js"></script>
+   <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>  
+
+<body>
+    <header>
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="../../../index.html">Pàgina principal</a>
+                <a href="../2.Mapa/mapa.html">Recorregut i mapa</a>
+                <a href="../3.Transports/transports.html">Transports</a>
+                <a href="../4.Mascotes/mascotes.html">Mascotes</a>
+                <a href="../5.Correr/correr.html">La marató</a>
+            </div>
+        </div>        
+  
+
+        <h1>La marató</h1>
+        <nav class= "filters">
+            <ul>
+            <li><a class = "inici" href="#sortida3">Primers 5km</a></li>
+            <li><a class = "inici" href="#sortida9">Primers 10km</a></li>
+            <li><a class = "inici" href="#sortidacursa">Cursa al Castell de Racconigi</a></li>
+            <li><a class = "inici" href="#sortida13">Primers 15km</a></li>
+            <li><a class = "inici" href="#sortida18">Primers 30km</a></li>
+            <li><a class = "inici" href="#sortidamarato">40ena marató d'Atenes</a></li>
+            <li><a class = "inici" href="#grafics">Gràfics</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>  
+        <div class="map-container">
+            <div class="map-section">
+            </div>
+
+            <div class="grafics">
+                <p class="titol-grafics" id="grafics">
+                    Els gràfics de l'entrenament
+                </p>
+                <div class="container">
+                    <iframe class="graph" scrolling="no" src="https://chart-studio.plotly.com/~ferranodri/1.embed" loading="lazy"></iframe>
+                    <iframe class="graph" scrolling="no" src="https://chart-studio.plotly.com/~ferranodri/2.embed" loading="lazy"></iframe>
+                    <iframe class="graph" scrolling="no" src="https://chart-studio.plotly.com/~ferranodri/3.embed" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div>
+        <p></p>
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/ainhoandferran/" target="_blank"><img src="../../Icones/insta.png" alt="Perfil Insta" loading="lazy"></a>
+        <a href="https://www.dropbox.com/scl/fo/019mua3qflvtmmx4gfsod/ALcvvktlaZ2zaGqC0M58BF8?rlkey=vo4a4d5bvl3o8c7lmm9wbjjvn&st=4g1bpww8&dl=0" target="_blank"><img src="../../Icones/dropbox.png" alt="Fotos Dropbox" loading="lazy"></a>
+        <a href="https://docs.google.com/spreadsheets/d/1S428XvwNnAOmlTHqXF4ehw8izbqXS8EX/edit?usp=drive_link&ouid=102634543510391697673&rtpof=true&sd=true" target="_blank"><img src="../../Icones/calendar.png" alt="Calendari Drive" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/C1SsWAThlMQkdeGB1IJUlAyZafCz18PidlYOC40/" target="_blank"><img src="../../Icones/video.png" alt="Vídeo 25 desembre" loading="lazy"></a>
+        <a href="https://www.instagram.com/p/C1StUvShPPpcLOX-YWdJpvQ49t9zWeTDpfzCU80/" target="_blank"><img src="../../Icones/llibre.png" alt="Conte" loading="lazy"></a>
+    </footer>
+    
+    </body>
+    </html>
+    
+    
