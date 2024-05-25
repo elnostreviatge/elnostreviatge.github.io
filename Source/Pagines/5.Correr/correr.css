@@ -237,7 +237,7 @@ background-color: var(--color35);
 .informacio {
   display: flex;
   align-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   width: 100%;
   z-index:1; 
 
@@ -252,14 +252,13 @@ background-color: var(--color35);
 }
 
 .map-text {
-  min-width: 370px;
-  max-width: 370px;
+  min-width: 300px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   border: 2px solid var(--color95);   
   margin-right: 20px;
-  max-height: 500px;
-
+  height: 500px;
 }
 
 .titolmedia {
@@ -279,28 +278,25 @@ background-color: var(--color35);
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-template-columns: 2fr 2fr;
   gap: 12px;
   row-gap: 18px;
   justify-self: start;
   align-items: center;
-
-}
-
-.grid-item {
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
-.grid-item img {
-  width: 100%;
-  height: 100%;
+.gallery img {
+  width: 100%; 
+  height: auto;
   display: block;
   border-radius: 4px;
 }
 
-.grid-item iframe {
+.gallery iframe {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
   border-radius: 4px;
 }
@@ -330,9 +326,3 @@ background-color: var(--color35);
   border:none;
   margin-top: 10px;
 }
-
-
-
-
-
-

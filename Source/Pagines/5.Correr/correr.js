@@ -159,6 +159,8 @@ function crearMedia(numeroArgument, cadenamedia, id) {
     var numero = parseInt(numeroArgument);
     var arrayCadenes = cadenamedia.split(",");
 
+    var pare = document.getElementById("gallery" + id); // Obté l'element pare fora del bucle
+
     for (var i = 0; i < numero; i++) {
         var nouElement;
         if (arrayCadenes[i].startsWith("https://www.youtube.com/")) {
@@ -166,30 +168,24 @@ function crearMedia(numeroArgument, cadenamedia, id) {
             var videoId = arrayCadenes[i].split("/embed/")[1];
             nouElement = document.createElement("iframe");
             nouElement.src = "https://www.youtube.com/embed/" + videoId;
-            nouElement.loading = "lazy"; 
             nouElement.alt = "Vídeo " + (i + 1);
             nouElement.allowFullscreen = true;
             nouElement.controls = true;
-            nouElement.classList.add("video");
-
+            nouElement.classList.add("video-modal");
+            nouElement.loading = "lazy"; // Afegir l'atribut loading amb el valor "lazy"
 
         } else {
             // Si no, crea un element d'imatge
             nouElement = document.createElement("img");
             nouElement.src = "../5.Correr/Imatges/" + id + "/" + (i + 1) + "." + arrayCadenes[i];
             nouElement.alt = "Imatge " + (i + 1);
-            nouElement.loading = "lazy"; 
+            nouElement.classList.add("imatge-modal");
+            nouElement.loading = "lazy"; // Afegir l'atribut loading amb el valor "lazy"
         }
 
-        var nouDiv = document.createElement("div");
-        nouDiv.classList.add("grid-item");
-        nouDiv.appendChild(nouElement);
-
-        var pare = document.getElementById("gallery" + id);
-        pare.appendChild(nouDiv);
+        pare.appendChild(nouElement); // Afegeix l'element directament a l'element pare
     }
 }
-
 
 
 
@@ -244,3 +240,61 @@ backToTopLink.href = '#top';
 backToTopLink.innerHTML = 'Torna a dalt';
 backToTopLink.classList.add('back-to-top-link');
 document.body.appendChild(backToTopLink);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
