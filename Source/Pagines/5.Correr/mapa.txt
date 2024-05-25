@@ -3,24 +3,24 @@
 . Post Canigó, primers 5km#3#5.01#0:36:56#22#07:22#Pierrelatte#22/08#1#0##---
 . Mig plovent#4#6.31#0:42:36#18#06:45#Pierrelatte#26/08#1#0##Visca l'èpica!!!
 #5#6.69#0:43:38#24#06:31#Pierrelatte#27/08#0#0##---
-. Aviat 10km!#6#7.31#0:53:26#25#07:19#Pierrelatte#29/08#0#12#JPG,JPG,JPG,JPG,JPG,****,****,****,****,****,****,****#---
+. Aviat 10km!#6#7.31#0:53:26#25#07:19#Pierrelatte#29/08#0#6#JPG,JPG,JPG,JPG,JPG,****#---
 . Una mica de muntanya i desnivell#7#7.02#0:55:24#171#07:54#La Giettaz#01/09#0#0##Fent natura, fent salut!
 . Més muntanya i més kilòmetres#8#7.81#0:56:04#201#07:11#La Giettaz#04/09#0#0##---
-. Primers 10km, i amb desnivell! Final gloriós a la Cascada :)#9#10.06#1:17:17#193#07:41#La Giettaz#06/09#0#0##I la glòria és eterna!!!
+. Primers 10km, i amb desnivell! Final gloriós a la Cascada :)#9#10.06#1:17:17#193#07:41#La Giettaz#06/09#0#13#JPG,JPG,JPG,JPG,JPG,JPG,JPG,JPG,JPG,JPG,jpg,jpg,****#I la glòria és eterna!!!
 . 5km per Chamonix, ens preparem per la cursa!#10#5.28#0:33:25#45#06:20#Chamonix#13/09#1#0##---
-#cursa#12.42#1:11:38#27#05:46#Racconigi#17/09#0#0##---
+#cursa#12.42#1:11:38#27#05:46#Racconigi#17/09#0#4#jpg,jpg,jpg,****#---
 . 10km per carretera#11#10.52#1:15:08#31#07:09#Mastarone#26/09#1#0##---
-. Uns quants kilòmetres amunt i avall#12#7.55#1:05:28#203#08:40#Mastarone#29/09#1#0##Ja veig que heu anat fent prova-error...😂 En qualsevol cas heu fet 7 km i 200+ que és bon entrenament. Seguim!
-. 1r terç de marató completat!#13#17.03#2:00:02#56#07:03#Mastarone#02/10#0#0##Déu n'hi do, això ja són paraules majors!
+. Uns quants kilòmetres amunt i avall#12#7.55#1:05:28#203#08:40#Mastarone#29/09#1#1#jpg#Ja veig que heu anat fent prova-error...😂 En qualsevol cas heu fet 7 km i 200+ que és bon entrenament. Seguim!
+. 1r terç de marató completat!#13#17.03#2:00:02#56#07:03#Mastarone#02/10#0#4#jpg,jpg,jpg,****#Déu n'hi do, això ja són paraules majors!
 . Baixem i pugem la vall#14#10.04#1:16:12#220#07:35#Borgo Bazziganta#11/10#0#0##Quina ilu veure-us de nou córrer!!!
-. Una mica més d'esport#15#5.77#0:41:54#137#07:16#Borgo Bazziganta#14/10#1#0##Tot suma! Endavant!!!
-. L'Ainhoa surt a córrer sola#16#9.01#1:12:58#243#08:06#Borgo Bazziganta#22/10#0#0##---
-. Reprenem entrenament, sightseeing per Atenes#17#14.71#1:53:14#117#07:42#Atenes#27/10#1#0##Fantàstic poder entrenar per aquesta meravellosa ciutat! Endavant!
-. 30km! Últim gran entrenament abans de la marató!#18#30.3#4:17:13#248#08:29#Atenes#30/10#0#0##Moltíssimes felicitats! Si podeu mantenir aquest ritme serà un molt bon temps! Però l'important serà gaudir, sigui quin sigui el temps total
+. Una mica més d'esport#15#5.77#0:41:54#137#07:16#Borgo Bazziganta#14/10#1#1#jpg,jpg,jpg#Tot suma! Endavant!!!
+. L'Ainhoa surt a córrer sola#16#9.01#1:12:58#243#08:06#Borgo Bazziganta#22/10#0#1#jpg#---
+. Reprenem entrenament, sightseeing per Atenes#17#14.71#1:53:14#117#07:42#Atenes#27/10#1#1#***#Fantàstic poder entrenar per aquesta meravellosa ciutat! Endavant!
+. 30km! Últim gran entrenament abans de la marató!#18#30.3#4:17:13#248#08:29#Atenes#30/10#0#1#JPG,***#Moltíssimes felicitats! Si podeu mantenir aquest ritme serà un molt bon temps! Però l'important serà gaudir, sigui quin sigui el temps total
 . 5km de recuperació pel barri#19#5.2#0:34:09#91#06:34#Atenes#01/11#1#0##Recuperació activa!
-. Mitja marató abans de la Marató#20#21.1#2:31:41#204#07:11#Atenes#03/11#0#0##Fantàstic entrenament! Seguim i ben animats! Força!
+. Mitja marató abans de la Marató#20#21.1#2:31:41#204#07:11#Atenes#03/11#0#1#***#Fantàstic entrenament! Seguim i ben animats! Força!
 . 5km pel barri#21#5.11#0:32:27#70#06:21#Atenes#05/11#1#0##---
-. Una mica més de barri#22#6.4#0:45:49#90#07:10#Atenes#06/11#1#0##Una mica més de barri i molt d'entrenament. Més aprop del dia i més en forma!
+. Una mica més de barri#22#6.4#0:45:49#90#07:10#Atenes#06/11#1#2#JPG,JPG#Una mica més de barri i molt d'entrenament. Més aprop del dia i més en forma!
 . 10 km pel barri#23#10.14#1:06:06#122#06:31#Atenes#08/11#1#0##Seguim amb l'entrenament! Quilòmetres a les cames! Us felicito!
 . Última sortida abans del gran dia#24#5.12#0:33:09#53#06:28#Atenes#10/11#0#0##Uns quilòmetres per mantenir les cames actives! Preparats pel dia M !!!
-#marato#43.66#5:27:55#340#07:31#Atenes#12/11#1#0##És molt emocionant veure el què heu fet. És molt emocionant que hagi estat a Atenes, un lloc meravellós que vosaltres valoreu tant. Sou molt grans, i molt feliç que ho hagueu compartit tant amb nosaltres. Us estimo!!!
+#marato#43.66#5:27:55#340#07:31#Atenes#12/11#1#14#JPG,JPG,JPG,JPG,jpg,jpg,jpg,jpg,jpeg,jpeg,jpeg,jpeg,jpg,****#És molt emocionant veure el què heu fet. És molt emocionant que hagi estat a Atenes, un lloc meravellós que vosaltres valoreu tant. Sou molt grans, i molt feliç que ho hagueu compartit tant amb nosaltres. Us estimo!!!

@@ -236,7 +236,7 @@ main {
 }
 
 .thumbnail img {
-  width: 90px;
+  width: 70px;
   height: auto;
   cursor: pointer;
   border: 2px solid transparent;

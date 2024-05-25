@@ -52,5 +52,5 @@ function generateGallery(numImages, id, parentId) {
 
   document.addEventListener('DOMContentLoaded', function() {
     // Crida a generateGallery amb els paràmetres desitjats
-    generateGallery("4", "1", "galeria");
+    generateGallery("15", "1", "galeria");
 });

@@ -5,13 +5,20 @@ Anònim 1 burro,Anònim 1,burro,Valmanya,França,V,jpg
 Anònim 2 burro,Anònim 2,burro,Valmanya,França,H,jpg
 Anònim 1 ovella,Anònim 1,ovella,Valmanya,França,H,jpg
 Anònim 2 ovella,Anònim 2,ovella,Valmanya,França,H,jpg
+Miette,Miette,gat,Pierrelatte,França,V,JPG
+Orange cat,Orange cat,gat,Pierrelatte,França,V,JPG
+Black cat,Black cat,gat,Pierrelatte,França,H,jpg
+Bebito,Bebito,gat,Pierrelatte,França,H,jpg
+Gat negre,Gat negre,gat,La Giettaz,França,H,jpg
+Gat blanc,Gat blanc (Montblanc),gat,La Giettaz,França,H,JPG
+Gat salvatge gris,Gat salvatge gris,gat,La Giettaz,França,H,jpg
 Acca,Acca,gos,Mastarone,Itàlia,H,jpg
 Eco,Eco,gos,Mastarone,Itàlia,H,jpg
-Amole,Amole (Maria) (†),gat,Mastarone,Itàlia,H,jpg
+Amole,Amole (Maria) (†),gat,Mastarone,Itàlia,V,jpg
 Milu,Milu,gat,Mastarone,Itàlia,H,jpg
 Steven,Steven,ovella,Mastarone,Itàlia,H,jpg
 Pommie,Pommie,gos,Monte San Pietro,Itàlia,H,jpg
-Dino,Dino (Eusebi),gat,Monte San Pietro,Itàlia,V,jpeg
+Dino,Dino (Eusebi),gat,Monte San Pietro,Itàlia,V,jpg
 Gigi,Gigi (Paula),gat,Monte San Pietro,Itàlia,V,jpg
 Filakia,Φιλάκια,gos,Prinilas,Grècia,V,jpg
 Lulu,Λούλου (Mr. Pedos),gat,Prinilas,Grècia,V,jpg
