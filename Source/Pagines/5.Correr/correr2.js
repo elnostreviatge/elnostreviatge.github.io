@@ -194,7 +194,7 @@ function crearMedia(numeroArgument, cadenamedia, id) {
 
 
 
-fetch('mapa2.txt')
+fetch('mapa.txt')
     .then(response => response.text())
     .then(rawData => {
         const lines = rawData.split('\n');
