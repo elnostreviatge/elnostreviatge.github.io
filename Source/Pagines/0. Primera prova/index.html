@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+</head>
+
+<body>
+
+    <ul class="tabs">
+        <li class="tab casa-tab" onclick="changeTab('casa')">
+            <img src="../Icones/icona_casa.png" alt="Casa"></li>        
+        <li class="tab" onclick="changeTab('nits')">Nits</li>
+        <li class="tab" onclick="changeTab('companys')">Companys</li>
+        <li class="tab" onclick="changeTab('trajectes')">Trajectes</li>
+        <li class="tab" onclick="changeTab('correr')">Córrer</li>
+    </ul>
+
+    <div id="nits" class="tab-content">
+        <h2>Contingut de Nits</h2>
+        <div style="width: 500px">
+            <canvas id="grafica"></canvas>
+        </div>        
+    </div>
+
+    <div id="companys" class="tab-content">
+        <h2>Contingut de Companys</h2>
+
+    </div>
+
+    <div id="trajectes" class="tab-content">
+        <h2>Contingut de Trajectes</h2>
+
+    </div>
+
+    <div id="correr" class="tab-content">
+        <h2>Contingut de Córrer</h2>
+
+    </div>
+
+</body>
+</html>

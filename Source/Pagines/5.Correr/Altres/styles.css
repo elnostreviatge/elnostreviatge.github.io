@@ -1,0 +1,150 @@
+:root {
+    --color-taronja: #fff3e6;
+    --color-blau: #e6f6ff;
+    --color-vermell: #fee8e7;
+    --color-verd: #f6ffe6;
+    --color-lila: #f2e6ff;
+    --color-blancfluix: #f5f4ef;
+
+    --color-blanc: #fff;
+
+    --color95: #fff3e6;
+    --color90: #ffe6cc;
+    --color75: #ffc180;
+    --color50: #ff8400;
+    --color40: #cc6900;
+    --color35: #b35c00;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--color50);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+ 
+.back-to-top-link:hover {
+    background-color: var(--color35);
+}
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color95);
+}
+  
+header {
+    background-color: var(--color90);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.filters ul {
+    list-style: none;
+}
+
+.filters li,
+.filters a {
+    display: inline-block;
+}
+
+.filters a {
+    border: 1px solid var(--color75);
+    border-radius: 5px;
+    margin: 5px;  
+    margin-top: 10px;
+    padding: 8px 16px;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.filters a:hover {
+    border: 1px solid var(--color40);
+}
+
+.filters a:link,
+.filters a:visited,
+.filters a:active {
+    color: black;
+}
+
+
+
+
+
+
+
+
+.section-content {
+    display: flex;
+    flex-direction: column; /* Organitza els elements en una fila */
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-section {
+    display: flex;
+    flex-direction: row; /* Per aconseguir que els elements estiguin a la inversa */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.mapa {
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.map-text {
+    margin-top: 0px; 
+    text-align: left;
+}
+
+.icones {
+    width: 50px; /* Amplada de la imatge */
+    height: 50px; /* Alçada de la imatge */
+}
+
+.titol {
+    font-size: 36px;
+    color: black;
+    letter-spacing: -1px;
+    margin: 20px 0;
+    font-family: fantasy;
+}
+
+.text_icones {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icones {
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 2px solid var(--color50); /* Color del borde: negre; amplada del borde: 2 píxels */
+    border-radius: 100px; /* Rodó en les cantonades (ajusta al teu gust) */
+}

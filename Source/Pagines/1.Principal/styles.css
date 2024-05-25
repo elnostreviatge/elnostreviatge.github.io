@@ -1,0 +1,206 @@
+:root {
+  --color-taronja-correr: #fff3e6;
+  --color-blau-mascotes: #e6f6ff;
+  --color-vermell-transports: #fee8e7;
+  --color-verd-extra: #e5ffe5;
+  --color-lila-principal: #f2e6ff;
+  --color-marrófluix-mapa: #f5f4ef;
+
+  --color-blanc: #fff;
+
+  --color95: #f2e6ff;
+  --color90: #e5ccff;
+  --color75: #bd80ff;
+  --color50: #6f00e6;
+  --color40: #6300cc;
+  --color35: #5600b3;
+
+  --colorboto: #4CAF50;
+  --colorbotoclicat: #3e8e41;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--color50);
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.back-to-top-link:hover {
+  background-color: var(--color35);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color95);
+}
+
+header {
+  background-color: var(--color90);
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--color90);
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 36px; /* Amplada de les imatges */
+  height: auto; /* Manté la proporció original de l'alçada */
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: transform 0.3s ease-in-out; /* Transició suau de 0.3 segons */
+}
+
+footer img:hover {
+  transform: scale(1.1); /* Augmenta una mica la mida al passar el ratolí */
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+  
+/* Estil per al menú desplegable */
+.dropdown {
+  position: absolute;
+  top: 20px; /* Ajusta aquest valor segons la teva necessitat */
+  left: 20px; /* Ajusta aquest valor segons la teva necessitat */
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 166px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 40px; /* Ajusta aquest valor segons la teva necessitat */
+  left: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+background-color: var(--color50);
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.2s ease;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: var(--color35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estil per centrar els quadres horitzontalment */
+.quadre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Espaiat superior */
+}
+
+/* Estils per als quadres */
+.quadre {
+  width: 400px;
+  height: 360px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff; /* Color de fons blanc */
+  border: 1px solid #e0e0e0; /* Contorn gris clar */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombra suau */
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Transició suau de 0.3 segons */
+}
+
+.quadre-horitzontal {
+  width: 400px;
+  height: 360px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff; /* Color de fons blanc */
+  border: 1px solid #e0e0e0; /* Contorn gris clar */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombra suau */
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Transició suau de 0.3 segons */
+}
+
+.quadre img {
+  max-width: 100%;
+  height: auto;
+}
+
+.quadre-horitzontal img {
+  max-width: 57%;
+  height: auto;
+}
+
+.quadre:hover {
+  transform: scale(1.05); /* Augmenta una mica la mida al passar el ratolí */
+}
+
+.quadre-horitzontal:hover {
+  transform: scale(1.05); /* Augmenta una mica la mida al passar el ratolí */
+}
+
+a {
+  color: black; /* Color del text dels enllaços */
+  text-decoration: none; /* Elimina la decoració per defecte dels enllaços */
+}
